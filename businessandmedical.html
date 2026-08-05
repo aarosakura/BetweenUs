@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business & Medical Polish – Between Us</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar">
+        <a href="/" class="logo">
+            Between Us
+        </a>
+        <div class="nav-links">
+            <a href="/absolute-beginners" class="btn btn-link btn-sm">Absolute Beginners Polish</a>
+            <a href="/conversational" class="btn btn-link btn-sm">Conversational Polish</a>
+            <a href="/vacations" class="btn btn-link btn-sm">Polish for Vacations</a>
+            <a href="/children" class="btn btn-link btn-sm">Polish for Children</a>
+            <a href="/state-exams" class="btn btn-link btn-sm">Polish State Exams</a>
+            <a href="/business-medical" class="btn btn-link btn-sm">Business / Medical Polish</a>
+            <a href="/certificates" class="btn btn-link btn-sm">Polish Certificates (B1-C2)</a>
+            <a href="/store" class="btn btn-link btn-sm">Store</a>
+            <a href="/aboutus" class="btn btn-link btn-sm">About Us</a>
+
+            <!-- SOCIAL ICONS IN HEADER -->
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon-btn instagram" aria-label="Instagram">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon-btn facebook" aria-label="Facebook">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+
+            <!-- PHONE NUMBER -->
+            <a href="tel:+48888400705" class="phone-link" aria-label="Call +48 888 400 705">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <span>+48 888 400 705</span>
+            </a>
+
+            <!-- CONSULTATION BUTTON -->
+            <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-sm d-flex align-items-center" style="flex-shrink:0;">
+                <svg width="10" height="11" viewBox="0 0 12 13" fill="none" style="margin-right:3px;"><circle cx="4.95103" cy="5.89976" r="4.10103" stroke="#00463A" stroke-width="1.7"/><path d="M10.4479 12.6529C10.7798 12.9848 11.318 12.9848 11.65 12.6529C11.9819 12.3209 11.9819 11.7827 11.65 11.4508L10.4479 12.6529ZM7.53958 9.7446L10.4479 12.6529L11.65 11.4508L8.74167 8.54251L7.53958 9.7446Z" fill="#00463A"/></svg>
+                Book a consultation
+            </a>
+        </div>
+        <button class="hamburger" onclick="toggleMobileMenu()">
+            <svg width="28" height="29" viewBox="0 0 42 43"><path d="M14 19.9487H28" stroke="#00463A" stroke-width="2"/><path d="M14 24.9487H28" stroke="#00463A" stroke-width="2"/></svg>
+        </button>
+    </nav>
+
+    <!-- ===== MOBILE MENU ===== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" onclick="toggleMobileMenu()">✕</button>
+        <a href="/absolute-beginners" class="menu-item">Absolute Beginners Polish <span>›</span></a>
+        <a href="/conversational" class="menu-item">Conversational Polish <span>›</span></a>
+        <a href="/vacations" class="menu-item">Polish for Vacations <span>›</span></a>
+        <a href="/children" class="menu-item">Polish for Children <span>›</span></a>
+        <a href="/state-exams" class="menu-item">Polish State Exams <span>›</span></a>
+        <a href="/business-medical" class="menu-item">Business / Medical Polish <span>›</span></a>
+        <a href="/certificates" class="menu-item">Polish Certificates (B1-C2) <span>›</span></a>
+        <a href="/store" class="menu-item">Store <span>›</span></a>
+        <a href="/aboutus" class="menu-item">About Us <span>›</span></a>
+
+        <div class="d-flex gap-3 mt-4 mb-3">
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon-btn instagram" style="width:44px;height:44px;font-size:1.5rem;">
+                <svg viewBox="0 0 24 24" style="width:28px;height:28px;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon-btn facebook" style="width:44px;height:44px;font-size:1.5rem;">
+                <svg viewBox="0 0 24 24" style="width:28px;height:28px;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://wa.me/48888400705" target="_blank" class="social-icon-btn whatsapp" style="width:44px;height:44px;font-size:1.5rem;">
+                <svg viewBox="0 0 24 24" style="width:28px;height:28px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="tel:+48888400705" class="phone-link" style="font-size:1rem;padding:0.5rem 0.75rem;display:inline-flex;align-items:center;gap:4px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <span>+48 888 400 705</span>
+            </a>
+        </div>
+
+        <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary mt-2">Book a consultation</a>
+    </div>
+
+    <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+    <a href="https://wa.me/48888400705" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section">
+        <div class="hero-image-wrapper">
+            <img src="https://raw.githubusercontent.com/aarosakura/MiedzyNami/refs/heads/main/images/heroimage.png" alt="Business and Medical Polish" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-fade"></div>
+
+        <div class="container hero-content">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 text-center">
+                    <h1 class="h1">
+                        Business &amp; Medical<br />
+                        Polish for professionals.
+                    </h1>
+                    <p class="body-2 mb-4">
+                        Specialised language training for doctors, accountants, lawyers, and corporate professionals working in Poland.
+                    </p>
+                    <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg">
+                        Book a free consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INTRO ===== -->
+    <section class="d-flex justify-content-center container py-9">
+        <div style="max-width:75%; text-align:center;">
+            <div class="section-divider"></div>
+            <h2 class="h2" style="font-size:2.8rem;">
+                Speak your profession<br />in Polish with confidence.
+            </h2>
+            <p class="body-2 text-grey-200 mt-5" style="max-width:700px; margin:1.5rem auto 0;">
+                Whether you're treating patients, managing accounts, or negotiating contracts — the right vocabulary and cultural understanding make all the difference.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== WHO IT'S FOR ===== -->
+    <div class="bg-teal-ultra-pale py-8">
+        <div class="container">
+            <div class="text-center mb-7">
+                <h2 class="h2">Who is this for?</h2>
+                <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                    Specialised Polish for professionals in high-stakes environments.
+                </p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">👩‍⚕️</span>
+                            <h4 class="h4">Medical Professionals</h4>
+                            <p class="body-4 text-grey-200">
+                                Doctors, nurses, dentists, pharmacists, and healthcare workers who need to communicate with patients and colleagues in Polish.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">💼</span>
+                            <h4 class="h4">Business Professionals</h4>
+                            <p class="body-4 text-grey-200">
+                                Managers, executives, entrepreneurs, and corporate employees navigating the Polish business environment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">📊</span>
+                            <h4 class="h4">Finance &amp; Accounting</h4>
+                            <p class="body-4 text-grey-200">
+                                Accountants, auditors, financial analysts, and tax advisors working with Polish clients, regulations, and documentation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">⚖️</span>
+                            <h4 class="h4">Legal Professionals</h4>
+                            <p class="body-4 text-grey-200">
+                                Lawyers, paralegals, and legal advisors who need to understand Polish legal terminology and documents.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">🏢</span>
+                            <h4 class="h4">HR &amp; Administration</h4>
+                            <p class="body-4 text-grey-200">
+                                HR professionals, office managers, and administrators who need to navigate Polish employment law and workplace culture.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== WHAT WE COVER ===== -->
+    <div class="container py-8">
+        <div class="text-center mb-7">
+            <h2 class="h2">What we cover</h2>
+            <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                Tailored content for your specific profession.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="row">
+            <!-- Medical Column -->
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card h-100" style="border-top: 4px solid var(--teal-dark);">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🏥</span>
+                        <h4 class="h4">Medical Polish</h4>
+                        <ul class="body-4 text-grey-200" style="padding-left:1.25rem; margin-top:0.75rem;">
+                            <li style="margin-bottom:0.5rem;"><strong>Patient consultations</strong> — history taking, examinations, explaining diagnoses</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Medical terminology</strong> — anatomy, diseases, medications, procedures</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Prescriptions &amp; referrals</strong> — writing and understanding medical documentation</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Emergency situations</strong> — quick, clear communication in critical moments</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Patient instructions</strong> — explaining treatments, medications, and aftercare</li>
+                            <li><strong>Healthcare system navigation</strong> — understanding Polish healthcare structure and protocols</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Column -->
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card h-100" style="border-top: 4px solid var(--teal-dark);">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">📈</span>
+                        <h4 class="h4">Business Polish</h4>
+                        <ul class="body-4 text-grey-200" style="padding-left:1.25rem; margin-top:0.75rem;">
+                            <li style="margin-bottom:0.5rem;"><strong>Meetings &amp; negotiations</strong> — presenting, debating, persuading, concluding</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Professional emails &amp; correspondence</strong> — formal and semi-formal writing</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Financial vocabulary</strong> — accounting, reporting, taxes, budgets</li>
+                            <li style="margin-bottom:0.5rem;"><strong>Legal terminology</strong> — contracts, agreements, regulations</li>
+                            <li style="margin-bottom:0.5rem;"><strong>HR &amp; management</strong> — interviews, reviews, team communication</li>
+                            <li><strong>Polish business culture</strong> — etiquette, hierarchy, communication styles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== INDUSTRY-SPECIFIC EXAMPLES ===== -->
+    <div class="bg-soft-blue py-8">
+        <div class="container">
+            <div class="text-center mb-7">
+                <h2 class="h2">Real examples from real professions</h2>
+                <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                    Here's what you'll learn to do in Polish.
+                </p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🩺</span>
+                            <h4 class="h4">A Doctor</h4>
+                            <p class="body-4 text-grey-200">
+                                "What seems to be the problem? When did the symptoms start? I'm going to prescribe you this medication. Take it twice a day."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">💰</span>
+                            <h4 class="h4">An Accountant</h4>
+                            <p class="body-4 text-grey-200">
+                                "Let me explain the VAT regulations. You'll need to submit your quarterly returns by the 25th. Here are the deductible expenses."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">📋</span>
+                            <h4 class="h4">A Lawyer</h4>
+                            <p class="body-4 text-grey-200">
+                                "This contract is governed by Polish law. Section 5 covers termination conditions. Let's review the clauses together."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">👔</span>
+                            <h4 class="h4">A Manager</h4>
+                            <p class="body-4 text-grey-200">
+                                "I'd like to discuss your performance review. You've been doing excellent work. Let's talk about next year's goals."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <div class="container py-8">
+        <div class="text-center mb-7">
+            <h2 class="h2">Why choose specialised training?</h2>
+            <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                General Polish won't prepare you for the boardroom or the operating room. Here's why.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🎯</span>
+                        <h4 class="h4">Precision Matters</h4>
+                        <p class="body-4 text-grey-200">
+                            In medicine and business, the wrong word can have serious consequences. Learn the exact terminology you need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🏆</span>
+                        <h4 class="h4">Professional Credibility</h4>
+                        <p class="body-4 text-grey-200">
+                            Speaking Polish fluently in a professional context builds trust with patients, clients, and colleagues. It shows respect and competence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🌍</span>
+                        <h4 class="h4">Full Integration</h4>
+                        <p class="body-4 text-grey-200">
+                            Living and working in Poland means more than just getting by. Professional Polish helps you build your career and your life here.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== PRICING ===== -->
+    <div class="bg-teal-ultra-pale py-8">
+        <div class="container">
+            <div class="text-center mb-7">
+                <h2 class="h2">Simple pricing. Real results.</h2>
+                <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                    Invest in your career. Invest in your future.
+                </p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <div class="card" style="background: #ffffff; border: none; box-shadow: 0 8px 30px rgba(26, 60, 63, 0.08);">
+                        <div class="card-body text-center" style="padding: 3rem 2rem;">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🇵🇱</span>
+                            <h3 class="h3" style="font-size:3rem; font-weight:700; color:var(--teal-dark);">£35</h3>
+                            <p class="body-2 text-grey-200" style="margin-top:-0.5rem;">per hour</p>
+                            <hr style="border-color:rgba(26,60,63,0.08); margin:1.5rem 0;" />
+                            <ul class="list-unstyled text-left" style="max-width:300px; margin:0 auto;">
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> 1-on-1 live lessons
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Specialised vocabulary
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Native speaker teacher
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Industry-specific materials
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Flexible scheduling
+                                </li>
+                            </ul>
+                            <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg mt-4" style="width:100%;">
+                                Book your first lesson
+                            </a>
+                            <p class="body-4 text-grey-300 mt-3" style="font-size:0.85rem;">
+                                First consultation free. No commitment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FAQ ===== -->
+    <div class="container py-8">
+        <div class="text-center mb-7">
+            <h2 class="h2">Questions from professionals</h2>
+            <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                Everything you need to know about specialised Polish training.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">What level do I need to start?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            For medical and business Polish, I recommend at least A2 level. This ensures you have the basic grammar and vocabulary foundation to build on. If you're below A2, we can work on general Polish first.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">Can you tailor lessons to my specific field?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Absolutely. Every lesson is tailored to your profession, your specific role, and the situations you face daily. I'll work with you to identify exactly what you need.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">Do you work with doctors who need to pass the language exam?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Yes. Many medical professionals need B1 level for Polish citizenship or B2/C1 for medical registration. We can prepare you for both the exam and real-world clinical communication.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">How long before I notice a difference?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Most professionals notice improved confidence within 4-6 weeks of weekly lessons. By 3 months, you'll be handling professional conversations and documents with much greater ease.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">Do you also teach Polish business etiquette?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Yes! Language and culture go hand in hand. I'll teach you the unspoken rules of Polish workplace culture, formal communication styles, and how to navigate professional relationships.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-7">
+            <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg">
+                Book your free consultation
+            </a>
+        </div>
+    </div>
+
+    <!-- ===== CTA SECTION ===== -->
+    <div class="cta-section-wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <h2 class="h2">Ready to speak<br />professional Polish?</h2>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="body-3" style="color: var(--grey-200);">
+                        Your patients, clients, and colleagues are waiting. Let's get you the language skills you need to succeed in Poland.
+                    </p>
+                </div>
+            </div>
+            <hr class="my-5" style="border-color: rgba(26, 60, 63, 0.12);" />
+            <div class="d-flex flex-wrap gap-3">
+                <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg">Book a free consultation</a>
+                <a href="/" class="btn btn-outline-soft btn-lg" style="background: rgba(255,255,255,0.5);">Back to home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark-green pt-5" style="color:rgba(255,255,255,0.7);">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <span style="font-family:'Faro','Inter',sans-serif;font-size:2rem;font-weight:600;color:var(--teal-pale);letter-spacing:-0.03em;">Between Us</span>
+                    <p class="body-4 mt-2" style="color:rgba(255,255,255,0.6);">Polish tutoring with a native touch.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <p class="body-4 medium" style="color:rgba(255,255,255,0.8);">Learn Polish from someone who truly gets it.</p>
+                    <div class="my-5 d-flex gap-3">
+                        <a href="https://www.instagram.com/" target="_blank" class="social-icon-btn instagram" style="width:44px;height:44px;background:rgba(255,255,255,0.08);">
+                            <svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:#fff;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon-btn facebook" style="width:44px;height:44px;background:rgba(255,255,255,0.08);">
+                            <svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:#fff;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://wa.me/48888400705" target="_blank" class="social-icon-btn whatsapp" style="width:44px;height:44px;background:rgba(255,255,255,0.08);">
+                            <svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:#fff;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                        <a href="tel:+48888400705" class="phone-link" style="color:rgba(255,255,255,0.8);font-size:0.9rem;padding:0.5rem 0.75rem;background:rgba(255,255,255,0.08);border-radius:50rem;display:inline-flex;align-items:center;gap:4px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <span>+48 888 400 705</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4 class="body-4 medium mb-4" style="color:rgba(255,255,255,0.8);">Between Us</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/aboutus" style="color:rgba(255,255,255,0.6); text-decoration:none;">About me</a></li>
+                        <li class="mb-3"><a href="/absolute-beginners" style="color:rgba(255,255,255,0.6); text-decoration:none;">Absolute Beginners Polish</a></li>
+                        <li class="mb-3"><a href="/conversational" style="color:rgba(255,255,255,0.6); text-decoration:none;">Conversational Polish</a></li>
+                        <li class="mb-3"><a href="/vacations" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish for Vacations</a></li>
+                        <li class="mb-3"><a href="/children" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish for Children</a></li>
+                        <li class="mb-3"><a href="/state-exams" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish State Exams</a></li>
+                        <li class="mb-3"><a href="/business-medical" style="color:rgba(255,255,255,0.6); text-decoration:none;">Business / Medical Polish</a></li>
+                        <li class="mb-3"><a href="/certificates" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish Certificates (B1-C2)</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <h4 class="body-4 medium mb-4" style="color:rgba(255,255,255,0.8);">Students</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/faq.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4 class="body-4 medium mb-4" style="color:rgba(255,255,255,0.8);">Resources</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/blog.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Blog</a></li>
+                        <li><a href="/store" style="color:rgba(255,255,255,0.6); text-decoration:none;">Store</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top border-light-mint py-5" style="border-color:rgba(255,255,255,0.08) !important;">
+                <div class="col-12 col-lg-7 body-4" style="color:rgba(255,255,255,0.5);">© 2026 Between Us. All rights reserved.</div>
+                <div class="col-12 col-lg-5 d-flex flex-wrap" style="gap: 0.5rem 1.25rem; align-items: center;">
+                    <a href="/privacy-policy.html" style="color:rgba(255,255,255,0.5); text-decoration:none;"><u>Privacy Policy</u></a>
+                    <span style="color:rgba(255,255,255,0.3);">|</span>
+                    <a href="/cookie-policy.html" style="color:rgba(255,255,255,0.5); text-decoration:none;"><u>Cookie Policy</u></a>
+                    <span style="color:rgba(255,255,255,0.3);">|</span>
+                    <a href="/terms-conditions.html" style="color:rgba(255,255,255,0.5); text-decoration:none;"><u>Terms & Conditions</u></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
