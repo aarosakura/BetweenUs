@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polish for Vacations – Between Us</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar">
+        <a href="/" class="logo">
+            Between Us
+        </a>
+        <div class="nav-links">
+            <a href="/absolute-beginners" class="btn btn-link btn-sm">Absolute Beginners Polish</a>
+            <a href="/conversational" class="btn btn-link btn-sm">Conversational Polish</a>
+            <a href="/vacations" class="btn btn-link btn-sm">Polish for Vacations</a>
+            <a href="/children" class="btn btn-link btn-sm">Polish for Children</a>
+            <a href="/state-exams" class="btn btn-link btn-sm">Polish State Exams</a>
+            <a href="/business-medical" class="btn btn-link btn-sm">Business / Medical Polish</a>
+            <a href="/certificates" class="btn btn-link btn-sm">Polish Certificates (B1-C2)</a>
+            <a href="/store" class="btn btn-link btn-sm">Store</a>
+            <a href="/aboutus" class="btn btn-link btn-sm">About Us</a>
+
+            <!-- SOCIAL ICONS IN HEADER -->
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon-btn instagram" aria-label="Instagram">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon-btn facebook" aria-label="Facebook">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+
+            <!-- PHONE NUMBER -->
+            <a href="tel:+48888400705" class="phone-link" aria-label="Call +48 888 400 705">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <span>+48 888 400 705</span>
+            </a>
+
+            <!-- CONSULTATION BUTTON -->
+            <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-sm d-flex align-items-center" style="flex-shrink:0;">
+                <svg width="10" height="11" viewBox="0 0 12 13" fill="none" style="margin-right:3px;"><circle cx="4.95103" cy="5.89976" r="4.10103" stroke="#00463A" stroke-width="1.7"/><path d="M10.4479 12.6529C10.7798 12.9848 11.318 12.9848 11.65 12.6529C11.9819 12.3209 11.9819 11.7827 11.65 11.4508L10.4479 12.6529ZM7.53958 9.7446L10.4479 12.6529L11.65 11.4508L8.74167 8.54251L7.53958 9.7446Z" fill="#00463A"/></svg>
+                Book a consultation
+            </a>
+        </div>
+        <button class="hamburger" onclick="toggleMobileMenu()">
+            <svg width="28" height="29" viewBox="0 0 42 43"><path d="M14 19.9487H28" stroke="#00463A" stroke-width="2"/><path d="M14 24.9487H28" stroke="#00463A" stroke-width="2"/></svg>
+        </button>
+    </nav>
+
+    <!-- ===== MOBILE MENU ===== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" onclick="toggleMobileMenu()">✕</button>
+        <a href="/absolute-beginners" class="menu-item">Absolute Beginners Polish <span>›</span></a>
+        <a href="/conversational" class="menu-item">Conversational Polish <span>›</span></a>
+        <a href="/vacations" class="menu-item">Polish for Vacations <span>›</span></a>
+        <a href="/children" class="menu-item">Polish for Children <span>›</span></a>
+        <a href="/state-exams" class="menu-item">Polish State Exams <span>›</span></a>
+        <a href="/business-medical" class="menu-item">Business / Medical Polish <span>›</span></a>
+        <a href="/certificates" class="menu-item">Polish Certificates (B1-C2) <span>›</span></a>
+        <a href="/store" class="menu-item">Store <span>›</span></a>
+        <a href="/aboutus" class="menu-item">About Us <span>›</span></a>
+
+        <div class="d-flex gap-3 mt-4 mb-3">
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon-btn instagram" style="width:44px;height:44px;font-size:1.5rem;">
+                <svg viewBox="0 0 24 24" style="width:28px;height:28px;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon-btn facebook" style="width:44px;height:44px;font-size:1.5rem;">
+                <svg viewBox="0 0 24 24" style="width:28px;height:28px;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://wa.me/48888400705" target="_blank" class="social-icon-btn whatsapp" style="width:44px;height:44px;font-size:1.5rem;">
+                <svg viewBox="0 0 24 24" style="width:28px;height:28px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="tel:+48888400705" class="phone-link" style="font-size:1rem;padding:0.5rem 0.75rem;display:inline-flex;align-items:center;gap:4px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <span>+48 888 400 705</span>
+            </a>
+        </div>
+
+        <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary mt-2">Book a consultation</a>
+    </div>
+
+    <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+    <a href="https://wa.me/48888400705" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section">
+        <div class="hero-image-wrapper">
+            <img src="https://raw.githubusercontent.com/aarosakura/MiedzyNami/refs/heads/main/images/heroimage.png" alt="Discover Poland through language" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-fade"></div>
+
+        <div class="container hero-content">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 text-center">
+                    <h1 class="h1">
+                        Discover Poland<br />
+                        through language.
+                    </h1>
+                    <p class="body-2 mb-4">
+                        From ordering pierogi to exploring hidden gems — learn the Polish you actually need for travel.
+                    </p>
+                    <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg">
+                        Book a free consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== INTRO ===== -->
+    <section class="d-flex justify-content-center container py-9">
+        <div style="max-width:75%; text-align:center;">
+            <div class="section-divider"></div>
+            <h2 class="h2" style="font-size:2.8rem;">
+                Travel deeper. Connect better. Experience Poland like never before.
+            </h2>
+            <p class="body-2 text-grey-200 mt-5" style="max-width:700px; margin:1.5rem auto 0;">
+                When you speak even a little Polish, Poland opens up. Locals appreciate the effort, hidden corners become accessible, and every trip becomes an adventure.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== WHY LEARN ===== -->
+    <div class="bg-teal-ultra-pale py-8">
+        <div class="container">
+            <div class="text-center mb-7">
+                <h2 class="h2">Why learn Polish for your trip?</h2>
+                <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                    A few words go a long way. Here's what changes when you learn.
+                </p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">🍽️</span>
+                            <h4 class="h4">Order Food Like a Local</h4>
+                            <p class="body-4 text-grey-200">
+                                Skip the tourist menus. Order pierogi, żurek, and oscypek in Polish — and discover dishes that aren't translated for visitors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">🗺️</span>
+                            <h4 class="h4">Navigate with Confidence</h4>
+                            <p class="body-4 text-grey-200">
+                                Read signs, ask for directions, understand train schedules, and travel independently — even in smaller towns where English isn't spoken.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">🤝</span>
+                            <h4 class="h4">Connect with Locals</h4>
+                            <p class="body-4 text-grey-200">
+                                Poles appreciate when you try. A simple "Dzień dobry" or "Dziękuję" opens hearts. You'll leave with friends, not just photos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">🏛️</span>
+                            <h4 class="h4">Understand the Culture</h4>
+                            <p class="body-4 text-grey-200">
+                                Poland's history and culture come alive when you understand the language. Museums, tours, and conversations take on new meaning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mx-auto mb-4">
+                    <div class="card card-soft h-100">
+                        <div class="card-body text-center">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.75rem;">🎁</span>
+                            <h4 class="h4">Shop &amp; Bargain</h4>
+                            <p class="body-4 text-grey-200">
+                                Visit local markets, ask for prices, and maybe even haggle a little. You'll find better deals and more authentic experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== WHAT YOU'LL LEARN ===== -->
+    <div class="container py-8">
+        <div class="text-center mb-7">
+            <h2 class="h2">What you'll learn</h2>
+            <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                Practical Polish for every part of your journey.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">👋</span>
+                        <h4 class="h4">Essential Travel Phrases</h4>
+                        <p class="body-4 text-grey-200">
+                            Greetings, thank yous, please, excuse me, and all the basics you need to be polite and well-received everywhere.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🏨</span>
+                        <h4 class="h4">Hotels &amp; Accommodation</h4>
+                        <p class="body-4 text-grey-200">
+                            Checking in, asking for amenities, reporting issues, and checking out — confidently handle every hotel interaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🚆</span>
+                        <h4 class="h4">Transport &amp; Getting Around</h4>
+                        <p class="body-4 text-grey-200">
+                            Trains, buses, trams, taxis — understand timetables, buy tickets, and ask for the right platform or stop.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🍲</span>
+                        <h4 class="h4">Ordering Food &amp; Drinks</h4>
+                        <p class="body-4 text-grey-200">
+                            Read menus, order confidently, ask for recommendations, and handle dietary requirements — all in Polish.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🛍️</span>
+                        <h4 class="h4">Shopping &amp; Markets</h4>
+                        <p class="body-4 text-grey-200">
+                            Ask for prices, describe what you're looking for, and shop like a local at Poland's beautiful markets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🚑</span>
+                        <h4 class="h4">Emergencies &amp; Healthcare</h4>
+                        <p class="body-4 text-grey-200">
+                            Basic medical vocabulary, asking for help, explaining symptoms, and navigating pharmacies — just in case.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mx-auto mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🎭</span>
+                        <h4 class="h4">Cultural Etiquette &amp; Customs</h4>
+                        <p class="body-4 text-grey-200">
+                            Learn how Poles greet, what to say at the table, how to show respect, and the do's and don'ts of Polish culture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mx-auto mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span style="font-size:2rem; display:block; margin-bottom:0.5rem;">🇵🇱</span>
+                        <h4 class="h4">Polish History &amp; Traditions</h4>
+                        <p class="body-4 text-grey-200">
+                            Understand the significance of places, holidays, and traditions — your travels become richer when you know the story behind them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== POLISH CULTURE SECTION ===== -->
+    <div class="bg-soft-blue py-8">
+        <div class="container">
+            <div class="text-center mb-7">
+                <h2 class="h2">Beyond words: Polish culture</h2>
+                <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                    Learning the language means understanding the culture. Here's what makes Poland special.
+                </p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🥟</span>
+                            <h4 class="h4">Food &amp; Feast Traditions</h4>
+                            <p class="body-4 text-grey-200">
+                                From pierogi to bigos, from Christmas Eve wigilia to Easter breakfast — Polish food is a journey in itself. Learn what to order and how to eat it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🎶</span>
+                            <h4 class="h4">Music, Art &amp; Festivals</h4>
+                            <p class="body-4 text-grey-200">
+                                Chopin, folk music, open-air festivals, and vibrant city culture. Poland's artistic soul is everywhere — and it's beautiful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🏰</span>
+                            <h4 class="h4">History &amp; Architecture</h4>
+                            <p class="body-4 text-grey-200">
+                                Medieval castles, Gothic churches, Renaissance towns, and Soviet-era relics — Poland's history is written in stone. Understand what you're seeing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span style="font-size:2.5rem; display:block; margin-bottom:0.5rem;">🤗</span>
+                            <h4 class="h4">Polish Hospitality</h4>
+                            <p class="body-4 text-grey-200">
+                                Poles are some of the warmest hosts in the world — once you earn their trust. Learn the customs and you'll be welcomed like family.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SAMPLE ITINERARY ===== -->
+    <div class="container py-8">
+        <div class="text-center mb-7">
+            <h2 class="h2">Where will you go?</h2>
+            <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                Poland is full of incredible destinations. Here are just a few.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100" style="text-align:center;">
+                    <div class="card-body">
+                        <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🏰</span>
+                        <h4 class="h4">Kraków</h4>
+                        <p class="body-4 text-grey-200">
+                            Royal castles, medieval squares, and the dragon's lair. Poland's cultural heart.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100" style="text-align:center;">
+                    <div class="card-body">
+                        <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🏛️</span>
+                        <h4 class="h4">Warsaw</h4>
+                        <p class="body-4 text-grey-200">
+                            A phoenix risen from the ashes. Modern, vibrant, and full of stories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100" style="text-align:center;">
+                    <div class="card-body">
+                        <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🌊</span>
+                        <h4 class="h4">Gdańsk</h4>
+                        <p class="body-4 text-grey-200">
+                            Baltic beaches, amber, and Hanseatic history. A coastal gem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="card h-100" style="text-align:center;">
+                    <div class="card-body">
+                        <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">⛰️</span>
+                        <h4 class="h4">Zakopane</h4>
+                        <p class="body-4 text-grey-200">
+                            Tatra Mountains, highland culture, and the best oscypek cheese you'll ever taste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mx-auto mb-4">
+                <div class="card h-100" style="text-align:center;">
+                    <div class="card-body">
+                        <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🏞️</span>
+                        <h4 class="h4">Wrocław</h4>
+                        <p class="body-4 text-grey-200">
+                            Bridges, dwarfs, and Gothic charm. One of Poland's most beautiful cities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mx-auto mb-4">
+                <div class="card h-100" style="text-align:center;">
+                    <div class="card-body">
+                        <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🌿</span>
+                        <h4 class="h4">Białowieża</h4>
+                        <p class="body-4 text-grey-200">
+                            The last primeval forest in Europe. Home to wild bison and ancient trees.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== PRICING ===== -->
+    <div class="bg-teal-ultra-pale py-8">
+        <div class="container">
+            <div class="text-center mb-7">
+                <h2 class="h2">Simple pricing. Real results.</h2>
+                <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                    No hidden fees. No contracts. Just great lessons at a fair price.
+                </p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <div class="card" style="background: #ffffff; border: none; box-shadow: 0 8px 30px rgba(26, 60, 63, 0.08);">
+                        <div class="card-body text-center" style="padding: 3rem 2rem;">
+                            <span style="font-size:3rem; display:block; margin-bottom:0.5rem;">🇵🇱</span>
+                            <h3 class="h3" style="font-size:3rem; font-weight:700; color:var(--teal-dark);">£30</h3>
+                            <p class="body-2 text-grey-200" style="margin-top:-0.5rem;">per hour</p>
+                            <hr style="border-color:rgba(26,60,63,0.08); margin:1.5rem 0;" />
+                            <ul class="list-unstyled text-left" style="max-width:300px; margin:0 auto;">
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> 1-on-1 live lessons
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Personalised materials
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Native speaker teacher
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Flexible scheduling
+                                </li>
+                                <li style="padding:0.5rem 0; display:flex; align-items:center; gap:0.75rem;">
+                                    <span style="color:var(--bright-green); font-weight:700;">✓</span> Travel-specific vocabulary
+                                </li>
+                            </ul>
+                            <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg mt-4" style="width:100%;">
+                                Book your first lesson
+                            </a>
+                            <p class="body-4 text-grey-300 mt-3" style="font-size:0.85rem;">
+                                First consultation free. No commitment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FAQ ===== -->
+    <div class="container py-8">
+        <div class="text-center mb-7">
+            <h2 class="h2">Got questions?</h2>
+            <p class="body-2 text-grey-300 mx-auto" style="max-width:600px;">
+                Everything you need to know about learning Polish for travel.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">Do I need to know any Polish before starting?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            No! This course is designed for absolute beginners. We start from zero and focus on the phrases you'll actually use while traveling.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">How many lessons do I need before my trip?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            It depends on how long your trip is and how much you want to learn. Most students take 4-8 lessons before traveling to feel confident with the basics.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">Will I learn about Polish culture too?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Absolutely! Language and culture go hand in hand. I'll share insights about Polish customs, traditions, food, and history — so you can travel with understanding.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-4" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">Can I understand menus and signs after these lessons?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Yes! We'll focus on practical reading skills — menus, signs, timetables, and more. You'll be able to navigate confidently.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="border:1px solid rgba(26,60,63,0.06);">
+                    <div class="card-body">
+                        <h4 class="h4" style="font-size:1.1rem;">How do I book?</h4>
+                        <p class="body-4 text-grey-200 mt-2 mb-0">
+                            Click the button below to book a free 20-minute consultation. We'll talk about your travel plans and create a lesson plan just for you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-7">
+            <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg">
+                Book your free consultation
+            </a>
+        </div>
+    </div>
+
+    <!-- ===== CTA SECTION ===== -->
+    <div class="cta-section-wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <h2 class="h2">Ready for your<br />Polish adventure?</h2>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="body-3" style="color: var(--grey-200);">
+                        Every great trip starts with a few words. Let me help you discover Poland through its language — and make your journey unforgettable.
+                    </p>
+                </div>
+            </div>
+            <hr class="my-5" style="border-color: rgba(26, 60, 63, 0.12);" />
+            <div class="d-flex flex-wrap gap-3">
+                <a href="https://calendly.com/aarosakura" target="_blank" class="btn btn-primary btn-lg">Book a free consultation</a>
+                <a href="/" class="btn btn-outline-soft btn-lg" style="background: rgba(255,255,255,0.5);">Back to home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark-green pt-5" style="color:rgba(255,255,255,0.7);">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <span style="font-family:'Faro','Inter',sans-serif;font-size:2rem;font-weight:600;color:var(--teal-pale);letter-spacing:-0.03em;">Between Us</span>
+                    <p class="body-4 mt-2" style="color:rgba(255,255,255,0.6);">Polish tutoring with a native touch.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <p class="body-4 medium" style="color:rgba(255,255,255,0.8);">Learn Polish from someone who truly gets it.</p>
+                    <div class="my-5 d-flex gap-3">
+                        <a href="https://www.instagram.com/" target="_blank" class="social-icon-btn instagram" style="width:44px;height:44px;background:rgba(255,255,255,0.08);">
+                            <svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:#fff;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon-btn facebook" style="width:44px;height:44px;background:rgba(255,255,255,0.08);">
+                            <svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:#fff;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://wa.me/48888400705" target="_blank" class="social-icon-btn whatsapp" style="width:44px;height:44px;background:rgba(255,255,255,0.08);">
+                            <svg viewBox="0 0 24 24" style="width:24px;height:24px;fill:#fff;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                        <a href="tel:+48888400705" class="phone-link" style="color:rgba(255,255,255,0.8);font-size:0.9rem;padding:0.5rem 0.75rem;background:rgba(255,255,255,0.08);border-radius:50rem;display:inline-flex;align-items:center;gap:4px;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <span>+48 888 400 705</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4 class="body-4 medium mb-4" style="color:rgba(255,255,255,0.8);">Between Us</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/aboutus" style="color:rgba(255,255,255,0.6); text-decoration:none;">About me</a></li>
+                        <li class="mb-3"><a href="/absolute-beginners" style="color:rgba(255,255,255,0.6); text-decoration:none;">Absolute Beginners Polish</a></li>
+                        <li class="mb-3"><a href="/conversational" style="color:rgba(255,255,255,0.6); text-decoration:none;">Conversational Polish</a></li>
+                        <li class="mb-3"><a href="/vacations" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish for Vacations</a></li>
+                        <li class="mb-3"><a href="/children" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish for Children</a></li>
+                        <li class="mb-3"><a href="/state-exams" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish State Exams</a></li>
+                        <li class="mb-3"><a href="/business-medical" style="color:rgba(255,255,255,0.6); text-decoration:none;">Business / Medical Polish</a></li>
+                        <li class="mb-3"><a href="/certificates" style="color:rgba(255,255,255,0.6); text-decoration:none;">Polish Certificates (B1-C2)</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <h4 class="body-4 medium mb-4" style="color:rgba(255,255,255,0.8);">Students</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/faq.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <h4 class="body-4 medium mb-4" style="color:rgba(255,255,255,0.8);">Resources</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="/blog.html" style="color:rgba(255,255,255,0.6); text-decoration:none;">Blog</a></li>
+                        <li><a href="/store" style="color:rgba(255,255,255,0.6); text-decoration:none;">Store</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top border-light-mint py-5" style="border-color:rgba(255,255,255,0.08) !important;">
+                <div class="col-12 col-lg-7 body-4" style="color:rgba(255,255,255,0.5);">© 2026 Between Us. All rights reserved.</div>
+                <div class="col-12 col-lg-5 d-flex flex-wrap" style="gap: 0.5rem 1.25rem; align-items: center;">
+                    <a href="/privacy-policy.html" style="color:rgba(255,255,255,0.5); text-decoration:none;"><u>Privacy Policy</u></a>
+                    <span style="color:rgba(255,255,255,0.3);">|</span>
+                    <a href="/cookie-policy.html" style="color:rgba(255,255,255,0.5); text-decoration:none;"><u>Cookie Policy</u></a>
+                    <span style="color:rgba(255,255,255,0.3);">|</span>
+                    <a href="/terms-conditions.html" style="color:rgba(255,255,255,0.5); text-decoration:none;"><u>Terms & Conditions</u></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
